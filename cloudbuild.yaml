@@ -7,7 +7,7 @@ steps:
   # - 'us-central1-docker.pkg.dev/<your_project_id>/gke-repo/quickstart-image'
 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'us-central1-docker.pkg.dev/<your_project_id>/gke-repo/quickstart-image' ]
+  args: ['push', 'us-central1-docker.pkg.dev/kubernatescluster-446114/gke-repo/quickstart-image' ]
   id: 'Push Docker Image'
 
 - name: 'gcr.io/cloud-builders/docker'
